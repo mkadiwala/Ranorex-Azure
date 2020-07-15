@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="975be68a-20b9-49a4-b15c-5c7587fa3459"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Ranorex_Azure">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="a95fa33e-059b-416f-845a-4f8934a5fa8a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cd6efaac-9fd2-4c37-8f48-49486e37ff95"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="3feaeac7-28e6-4ede-ba84-0c1b2b8639f3"
+	name="Ranorex_AzureRepository"
+	relativepath="Ranorex_AzureRepository.rxrep">
+		<codegen
+		classname="Ranorex_AzureRepository"
+		namespace="Ranorex_Azure">
+		</codegen>
+		<rootfolder
+		id="af63ee45-0729-4e07-8cb4-06dce4c71f5a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
