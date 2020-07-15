@@ -28,6 +28,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="41ed3ef8-dbd7-4bb6-b93e-a54c0bdc3f40"
+			name="OpenBrowser"
+			ref="a2f65fc6-23e7-4e6d-af86-27f112248af6"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="62be0e30-9d89-40cf-854b-7e1143e51e4e"
 			name="OpenBrowser"
 			ref="a2f65fc6-23e7-4e6d-af86-27f112248af6"
@@ -37,6 +43,12 @@
 			id="655b88b1-e70d-4ed3-a51f-6f48572d843b"
 			name="setup">
 			</setup>
+			<testmodule
+			id="6fd25ed7-315b-4e15-9c48-7d0553890e74"
+			name="CloseBrowser"
+			ref="975be68a-20b9-49a4-b15c-5c7587fa3459"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="9a1006c1-f30e-477e-80fc-db90218d79b3"
 			name="CloseBrowser"
@@ -95,6 +107,14 @@
 					<testcase
 					id="e970b4f6-b914-4545-9268-723c95122d53"
 					name="OpenClose">
+						<testmodule
+						id="41ed3ef8-dbd7-4bb6-b93e-a54c0bdc3f40"
+						name="OpenBrowser">
+						</testmodule>
+						<testmodule
+						id="6fd25ed7-315b-4e15-9c48-7d0553890e74"
+						name="CloseBrowser">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
