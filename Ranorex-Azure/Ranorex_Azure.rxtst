@@ -60,6 +60,7 @@
 			name="teardown">
 			</teardown>
 			<testcase
+			errorbehavior="ContinueNextIteration"
 			id="e970b4f6-b914-4545-9268-723c95122d53"
 			name="OpenClose">
 			</testcase>

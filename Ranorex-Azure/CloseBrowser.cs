@@ -79,9 +79,15 @@ namespace Ranorex_Azure
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(0));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(1));
             Host.Current.CloseApplication(repo.ApplicationUnderTest.Self, new Duration(0));
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(2));
+            Delay.Duration(3000, false);
             
         }
 

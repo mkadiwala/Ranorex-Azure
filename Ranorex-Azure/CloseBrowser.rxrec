@@ -25,12 +25,21 @@ mode="Desktop">
 	<variables>
 	</variables>
 	<recorditems>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<closeapprecorditem
 		enabled="True"
 		graceperiod="0ms"
 		method="CloseWindow"
 		optional="False"
-		searchpropertyid="a95fa33e-059b-416f-845a-4f8934a5fa8a">
+		searchpropertyid="27dc6ba0-200a-49a7-a556-8924561ed2f4">
 			<comment>
 			</comment>
 			<bindings>
@@ -38,11 +47,50 @@ mode="Desktop">
 			<info
 			id="cd6efaac-9fd2-4c37-8f48-49486e37ff95"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webdocument"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="webdocument"
+				rect="0,0,0,0"
+				role="container"
+				snapElem=""
+				uidroot="True"
+				valid="False"
+				visible="False">
+					<attribute
+					name="browsername"
+					type="System.String">
+						IE
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						11.535.18362.0.addon
+					</attribute>
+					<attribute
+					name="state"
+					type="System.String">
+						invalid
+					</attribute>
+				</element>
 				<path>
-					/form[@processname='iexplore']
+					/dom[@domain='www.ranorex.com']
 				</path>
 			</info>
 		</closeapprecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="3feaeac7-28e6-4ede-ba84-0c1b2b8639f3"
