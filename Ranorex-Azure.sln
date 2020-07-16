@@ -4,12 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.3.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex-Azure", "Ranorex-Azure\Ranorex-Azure.csproj", "{0528E364-F680-4B69-9AD0-DF05BEDE4764}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A8186B7-E6EC-4375-8EE9-22953D608189}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex-Azure", "Ranorex-Azure\Ranorex-Azure.csproj", "{0528E364-F680-4B69-9AD0-DF05BEDE4764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
