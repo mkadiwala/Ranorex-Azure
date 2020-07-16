@@ -39,10 +39,6 @@
 			ref="a2f65fc6-23e7-4e6d-af86-27f112248af6"
 			type="Recording">
 			</testmodule>
-			<setup
-			id="655b88b1-e70d-4ed3-a51f-6f48572d843b"
-			name="setup">
-			</setup>
 			<testmodule
 			id="6fd25ed7-315b-4e15-9c48-7d0553890e74"
 			name="CloseBrowser"
@@ -55,10 +51,6 @@
 			ref="975be68a-20b9-49a4-b15c-5c7587fa3459"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="ba28f6e0-428f-4e21-996a-97ddd45d6687"
-			name="teardown">
-			</teardown>
 			<testcase
 			errorbehavior="ContinueNextIteration"
 			id="e970b4f6-b914-4545-9268-723c95122d53"
@@ -84,26 +76,18 @@
 					<testcase
 					id="fd4ca4e1-a3d3-46f9-933a-bbf656cc2af4"
 					name="AddUser">
-						<setup
-						id="655b88b1-e70d-4ed3-a51f-6f48572d843b"
-						name="setup">
-							<testmodule
-							id="62be0e30-9d89-40cf-854b-7e1143e51e4e"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
+						<testmodule
+						id="62be0e30-9d89-40cf-854b-7e1143e51e4e"
+						name="OpenBrowser">
+						</testmodule>
 						<testmodule
 						id="099a4358-ca7a-4e5b-aef9-0cd03cd4f20e"
 						name="Recording1">
 						</testmodule>
-						<teardown
-						id="ba28f6e0-428f-4e21-996a-97ddd45d6687"
-						name="teardown">
-							<testmodule
-							id="9a1006c1-f30e-477e-80fc-db90218d79b3"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
+						<testmodule
+						id="9a1006c1-f30e-477e-80fc-db90218d79b3"
+						name="CloseBrowser">
+						</testmodule>
 					</testcase>
 					<testcase
 					id="e970b4f6-b914-4545-9268-723c95122d53"

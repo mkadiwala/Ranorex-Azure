@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9b7c95d1-a379-4378-a87c-cd0aa272ec4f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="Ranorex_Azure">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="3feaeac7-28e6-4ede-ba84-0c1b2b8639f3"
+	name="Ranorex_AzureRepository"
+	relativepath="Ranorex_AzureRepository.rxrep">
+		<codegen
+		classname="Ranorex_AzureRepository"
+		namespace="Ranorex_Azure">
+		</codegen>
+		<rootfolder
+		id="af63ee45-0729-4e07-8cb4-06dce4c71f5a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

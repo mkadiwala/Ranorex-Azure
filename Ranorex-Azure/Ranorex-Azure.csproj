@@ -170,6 +170,18 @@
       <UserCode>true</UserCode>
       <id>9f497c2c-d38b-491e-83c8-91bba8697c8f</id>
     </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>034486dc-4df1-4aea-8026-cee6c069daa0</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c795e2c7-3e60-452e-97f2-b86f5c6b01e4</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>034486dc-4df1-4aea-8026-cee6c069daa0</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b318656f-8ac2-4416-b90e-a36f20050aa9</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -200,6 +212,11 @@
       <BoundTo>45563402-9938-4c75-83cc-a1c498195494</BoundTo>
       <id>32da40a3-3c9f-4824-829e-0f5928e5200f</id>
       <recordtableid>dca509e3-728b-4b43-a3f5-40e7e0f8159d</recordtableid>
+    </None>
+    <None Include="Recording2.rxrec">
+      <BoundTo>45563402-9938-4c75-83cc-a1c498195494</BoundTo>
+      <id>034486dc-4df1-4aea-8026-cee6c069daa0</id>
+      <recordtableid>9b7c95d1-a379-4378-a87c-cd0aa272ec4f</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
